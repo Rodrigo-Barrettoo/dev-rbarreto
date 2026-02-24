@@ -64,7 +64,11 @@ export function ExperienceItem({
       {results.length > 0 && (
         <div className="flex flex-wrap gap-2">
           {results.map((result, i) => (
-            <Badge key={i} variant="secondary" className="whitespace-normal">
+            <Badge
+              key={i}
+              variant="secondary"
+              className="font-mono whitespace-normal opacity-80"
+            >
               {result}
             </Badge>
           ))}
