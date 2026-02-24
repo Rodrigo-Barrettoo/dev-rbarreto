@@ -1,10 +1,10 @@
 "use client";
 
+import { experienceYears } from "@/utils/experience-years";
 import { motion } from "framer-motion";
 import { Button } from "../ui/button";
 
 export function Hero() {
-  const experienceYears = new Date().getFullYear() - 2020;
   const enterprises = ["Grupo Boticário", "Piuna", "Kazap Tecnologia"];
 
   return (
@@ -20,7 +20,7 @@ export function Hero() {
           className="max-w-3xl"
         >
           <p className="font-mono text-primary-brand text-sm mb-4 tracking-wider">
-            Olá, eu sou
+            Olá, eu sou Rodrigo
           </p>
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-4 text-foreground">
             Frontend
@@ -30,8 +30,8 @@ export function Hero() {
             </span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-xl leading-relaxed mt-6">
-            {experienceYears - 1}+ anos construindo aplicações web escaláveis e
-            de alta performance com{" "}
+            {experienceYears}+ anos construindo aplicações web escaláveis e de
+            alta performance com{" "}
             <span className="text-foreground font-medium">React</span>,{" "}
             <span className="text-foreground font-medium">React Native</span>,{" "}
             <span className="text-foreground font-medium">Next.js</span> e{" "}
