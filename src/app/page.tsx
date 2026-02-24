@@ -1,4 +1,5 @@
 import { About } from "@/components/about";
+import { Experience } from "@/components/experience";
 import { Header } from "@/components/header";
 import { Hero } from "@/components/hero";
 
@@ -10,9 +11,9 @@ export default function Home() {
       <main>
         <Hero />
         <About />
+        <Experience />
 
         {/* 
-        <Experience />
         <TechStack />
         <Education />
         <Contact /> */}

@@ -30,8 +30,8 @@ export function Hero() {
             </span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-xl leading-relaxed mt-6">
-            {experienceYears}+ anos construindo aplicações web escaláveis e de
-            alta performance com{" "}
+            {experienceYears}+ anos construindo aplicações web e mobile
+            escaláveis e de alta performance com{" "}
             <span className="text-foreground font-medium">React</span>,{" "}
             <span className="text-foreground font-medium">React Native</span>,{" "}
             <span className="text-foreground font-medium">Next.js</span> e{" "}

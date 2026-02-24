@@ -36,21 +36,25 @@ export function About() {
             <span className="text-foreground">Engie</span>,{" "}
             <span className="text-foreground">Duas Rodas</span>,{" "}
             <span className="text-foreground">Renner</span> e{" "}
-            <span className="text-foreground">AB InBev</span>.
+            <span className="text-foreground">AB InBev</span>, contribuindo para
+            a evolução de aplicações críticas e de grande escala.
           </p>
 
           <p className="text-muted-foreground leading-relaxed text-lg mb-6">
             Atuo no desenho de arquiteturas frontend com foco em experiência do
-            usuário e otimização de performance, desenvolvendo aplicações web
+            usuário, performance e escalabilidade, desenvolvendo aplicações web
             com React e Next.js e soluções mobile com React Native. Possuo forte
             experiência em integração frontend-backend, consumo de APIs REST e
-            GraphQL, definição de padrões de componentização e melhoria contínua
-            da qualidade, escalabilidade e manutenibilidade das aplicações.
+            GraphQL e também em integrações e serviços backend com Node.js,
+            contribuindo para eficiência, qualidade e manutenibilidade das
+            aplicações.
           </p>
 
           <p className="text-muted-foreground leading-relaxed text-lg">
             Bacharel em Engenharia de Software, com formação complementar pelo
-            Bootcamp GoStack da Rocketseat.
+            Bootcamp GoStack da Rocketseat, com experiência na construção de
+            soluções full stack e colaboração em decisões técnicas e
+            arquiteturais.
           </p>
         </motion.div>
       </div>
