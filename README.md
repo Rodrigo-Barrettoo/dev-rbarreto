@@ -1,36 +1,119 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Rodrigo Barreto - Portfolio
 
-## Getting Started
+Portfolio profissional desenvolvido com Next.js 16, React 19, TypeScript e Tailwind CSS.
 
-First, run the development server:
+## ✨ Features
+
+- ⚡️ **Next.js 16** com App Router e React Server Components
+- 🎨 **Tailwind CSS 4** para estilização moderna e responsiva
+- 🌙 **Theme Toggle** com next-themes (Dark/Light mode)
+- 📱 **100% Responsivo** - Mobile-first design
+- ♿️ **Acessível** - Seguindo padrões WCAG
+- 🎭 **Animações suaves** com Framer Motion
+- 🔍 **SEO Otimizado** - Meta tags, sitemap, robots.txt
+- 📦 **PWA Ready** - Web App Manifest configurado
+- 🎯 **Performance otimizada** - Lazy loading, code splitting
+- 🔒 **Headers de Segurança** configurados
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 16
+- **React**: 19.2.3
+- **TypeScript**: 5.x
+- **Estilização**: Tailwind CSS 4
+- **UI Components**: shadcn/ui + Radix UI
+- **Animações**: Framer Motion
+- **Ícones**: Lucide React
+- **Theme**: next-themes
+
+## 🚀 Getting Started
+
+### Pré-requisitos
+
+- Node.js 20+
+- npm ou yarn ou pnpm
+
+### Instalação
 
 ```bash
+# Clone o repositório
+git clone https://github.com/Rodrigo-Barrettoo/dev-rbarreto.git
+
+# Entre no diretório
+cd dev-rbarreto
+
+# Instale as dependências
+npm install
+
+# Inicie o servidor de desenvolvimento
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:3000](http://localhost:3000) no seu navegador.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📦 Build & Deploy
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+# Build de produção
+npm run build
 
-## Learn More
+# Inicie o servidor em produção
+npm start
 
-To learn more about Next.js, take a look at the following resources:
+# Lint
+npm run lint
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎯 Otimizações de Performance
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- ✅ React Strict Mode habilitado
+- ✅ Remoção automática de console.logs em produção
+- ✅ Otimização de imagens (AVIF, WebP)
+- ✅ Lazy loading de componentes
+- ✅ Code splitting automático do Next.js
+- ✅ Scroll suave nativo
+- ✅ Headers de segurança configurados
+- ✅ Compressão de assets
 
-## Deploy on Vercel
+## 📄 Estrutura do Projeto
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
+src/
+├── app/              # App Router do Next.js
+│   ├── layout.tsx    # Layout raiz com metadata
+│   ├── page.tsx      # Página inicial
+│   ├── sitemap.ts    # Sitemap dinâmico
+│   └── manifest.ts   # Web App Manifest (PWA)
+├── components/       # Componentes React
+│   ├── about/
+│   ├── contact/
+│   ├── education/
+│   ├── experience/
+│   ├── footer/
+│   ├── header/
+│   ├── hero/
+│   ├── tech-stack/
+│   ├── theme-toggle/
+│   └── ui/          # Componentes shadcn/ui
+├── lib/             # Utilitários
+├── providers/       # Context Providers
+└── utils/           # Funções auxiliares
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🌐 Deploy
+
+O projeto está otimizado para deploy na Vercel:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Rodrigo-Barrettoo/dev-rbarreto)
+
+## 📝 License
+
+Este projeto é pessoal e não possui licença de uso público.
+
+## 👤 Autor
+
+**Rodrigo Barreto**
+
+- GitHub: [@Rodrigo-Barrettoo](https://github.com/Rodrigo-Barrettoo)
+- LinkedIn: [rodrigo-barreto-gg](https://www.linkedin.com/in/rodrigo-barreto-gg)
+- Email: rodrigonarrettoo@gmail.com

@@ -22,7 +22,7 @@ export function Contact() {
             Estou sempre aberto a novas oportunidades e conexões. Se você tem um
             projeto interessante ou quer trocar uma ideia, entre em contato.
           </p>
-          <Button>
+          <Button asChild>
             <a href="mailto:rodrigonarrettoo@gmail.com">Diga olá</a>
           </Button>
         </motion.div>

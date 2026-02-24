@@ -2,6 +2,7 @@
 
 import { experienceYears } from "@/utils/experience-years";
 import { motion } from "framer-motion";
+import Link from "next/link";
 import { Button } from "../ui/button";
 
 export function Hero() {
@@ -44,12 +45,12 @@ export function Hero() {
             transition={{ delay: 0.4, duration: 0.6 }}
             className="flex items-center gap-4 mt-10"
           >
-            <Button>
-              <a href="#experience">Ver experiência</a>
+            <Button asChild>
+              <Link href="#experience">Ver experiência</Link>
             </Button>
 
-            <Button variant="outline">
-              <a href="#contact">Contato</a>
+            <Button variant="outline" asChild>
+              <Link href="#contact">Contato</Link>
             </Button>
           </motion.div>
 
