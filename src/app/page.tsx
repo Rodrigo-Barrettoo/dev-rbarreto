@@ -1,4 +1,5 @@
 import { About } from "@/components/about";
+import { Contact } from "@/components/contact";
 import { Education } from "@/components/education";
 import { Experience } from "@/components/experience";
 import { Header } from "@/components/header";
@@ -16,9 +17,7 @@ export default function Home() {
         <Experience />
         <TechStack />
         <Education />
-
-        {/* 
-        <Contact /> */}
+        <Contact />
       </main>
       {/* <Footer /> */}
     </div>
