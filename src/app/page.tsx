@@ -1,4 +1,5 @@
 import { About } from "@/components/about";
+import { Education } from "@/components/education";
 import { Experience } from "@/components/experience";
 import { Header } from "@/components/header";
 import { Hero } from "@/components/hero";
@@ -14,9 +15,9 @@ export default function Home() {
         <About />
         <Experience />
         <TechStack />
+        <Education />
 
         {/* 
-        <Education />
         <Contact /> */}
       </main>
       {/* <Footer /> */}
