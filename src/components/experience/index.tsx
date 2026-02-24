@@ -1,16 +1,12 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowBigRight } from "lucide-react";
+import {
+  ExperienceItem,
+  type ExperienceItemProps,
+} from "./_components/experience-item";
 
-type JobProps = {
-  company: string;
-  role: string;
-  period: string;
-  description: string;
-  highlights: string[];
-  results: string[];
-};
+type JobProps = Omit<ExperienceItemProps, "index">;
 const jobs: JobProps[] = [
   {
     company: "Grupo Boticário",
@@ -89,56 +85,7 @@ export function Experience() {
 
         <div className="space-y-16">
           {jobs.map((job, i) => (
-            <motion.div
-              key={job.company}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-80px" }}
-              transition={{ duration: 0.5, delay: i * 0.1 }}
-              className="relative pl-8 border-l hover:border-primary-brand transition-colors duration-500"
-            >
-              <div className="absolute -left-1.25 top-0 w-2.5 h-2.5 rounded-full bg-primary-brand" />
-
-              <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
-                <div>
-                  <h3 className="text-xl font-semibold text-foreground">
-                    {job.role}
-                  </h3>
-                  <p className="text-primary-brand font-mono text-sm">
-                    {job.company}
-                  </p>
-                </div>
-                <span className="font-mono text-xs text-muted-foreground mt-1 md:mt-0 shrink-0">
-                  {job.period}
-                </span>
-              </div>
-
-              <p className="text-muted-foreground mb-4">{job.description}</p>
-
-              <ul className="space-y-2 mb-4">
-                {job.highlights.map((h) => (
-                  <li
-                    key={h}
-                    className="flex items-center gap-2 text-sm text-muted-foreground"
-                  >
-                    <ArrowBigRight className="w-3 h-3 text-primary-brand" />
-
-                    {h}
-                  </li>
-                ))}
-              </ul>
-
-              <div className="flex flex-wrap gap-2">
-                {job.results.map((r) => (
-                  <span
-                    key={r}
-                    className="text-xs font-mono bg-secondary text-secondary-foreground px-3 py-1 rounded-full"
-                  >
-                    {r}
-                  </span>
-                ))}
-              </div>
-            </motion.div>
+            <ExperienceItem key={job.company} {...job} index={i} />
           ))}
         </div>
       </div>
