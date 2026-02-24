@@ -127,3 +127,7 @@
     @apply bg-background text-foreground;
   }
 }
+
+.glow-accent {
+  box-shadow: 0 0 30px -5px hsl(160 60% 45% / 20%);
+}
