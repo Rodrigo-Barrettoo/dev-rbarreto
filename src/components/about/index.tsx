@@ -45,9 +45,12 @@ export function About() {
             usuário, performance e escalabilidade, desenvolvendo aplicações web
             com React e Next.js e soluções mobile com React Native. Possuo forte
             experiência em integração frontend-backend, consumo de APIs REST e
-            GraphQL e também em integrações e serviços backend com Node.js,
-            contribuindo para eficiência, qualidade e manutenibilidade das
-            aplicações.
+            GraphQL, e também em desenvolvimento de integrações e serviços
+            backend com{" "}
+            <span className="text-foreground">Node.js e Express</span>,
+            construindo APIs escaláveis e otimizadas que atendem aplicações de
+            alta demanda, contribuindo para eficiência, qualidade e
+            manutenibilidade das aplicações.
           </p>
 
           <p className="text-muted-foreground leading-relaxed text-lg">

@@ -13,7 +13,14 @@ const categories = [
   },
   {
     title: "Backend & Integração",
-    techs: ["Node.js", "REST APIs", "GraphQL", "Frontend-Backend Integration"],
+    techs: [
+      "Node.js",
+      "Express",
+      "REST APIs",
+      "GraphQL",
+      "Frontend-Backend Integration",
+      "API Design",
+    ],
   },
   {
     title: "Arquitetura & Qualidade",

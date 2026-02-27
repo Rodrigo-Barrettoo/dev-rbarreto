@@ -17,7 +17,8 @@ const jobs: JobProps[] = [
     highlights: [
       "Definição e implementação de arquitetura de micro-frontends com Vite.js, aumentando escalabilidade e desacoplamento entre módulos",
       "Integração com APIs REST e GraphQL e otimização da comunicação frontend-backend",
-      "Contribuição em integrações e serviços backend com Node.js",
+      "Desenvolvimento de integrações e serviços backend com Node.js e Express, construindo APIs escaláveis para aplicações enterprise",
+      "Implementação de soluções full stack, conectando frontend com serviços backend e otimizando fluxos de dados",
       "Otimização de performance e experiência do usuário em aplicações de grande escala",
       "Definição de padrões e arquitetura frontend adotados entre módulos da plataforma",
     ],
@@ -36,7 +37,8 @@ const jobs: JobProps[] = [
       "Atuação como frontend engineer no desenvolvimento da plataforma Custa Barato, participando da evolução da arquitetura da aplicação, integrações e otimização da experiência de compra.",
     highlights: [
       "Desenvolvimento do frontend com React e Next.js com definição de arquitetura e padrões de componentização",
-      "Implementação de integrações GraphQL e construção de fluxos frontend-backend",
+      "Implementação de integrações GraphQL e construção de fluxos frontend-backend completos",
+      "Desenvolvimento de endpoints e serviços backend com Node.js para suportar funcionalidades da plataforma",
       "Otimização de fluxos críticos da jornada do usuário e evolução da performance em produção",
       "Colaboração em decisões técnicas relacionadas à arquitetura da aplicação",
     ],
@@ -63,6 +65,42 @@ const jobs: JobProps[] = [
       "Evolução de responsabilidades técnicas ao longo da carreira",
       "Entrega contínua de funcionalidades utilizadas por usuários em produção",
       "Melhoria da qualidade e padronização do código frontend",
+    ],
+  },
+
+  {
+    company: "LabSoft Unifae",
+    role: "Estagiário de Desenvolvimento",
+    period: "Jun/2019 – Nov/2019",
+    description:
+      "Desenvolvimento de aplicações web utilizando PHP e Laravel, com foco em APIs RESTful e metodologias ágeis.",
+    highlights: [
+      "Desenvolvimento Fullstack com PHP e Laravel",
+      "Criação e manutenção de APIs RESTful",
+      "Aplicação de metodologia ágil Scrum",
+      "Participação em projetos acadêmicos com impacto real",
+    ],
+    results: [
+      "Experiência prática em desenvolvimento full stack",
+      "Aprendizado de metodologias ágeis",
+    ],
+  },
+
+  {
+    company: "RTO Software",
+    role: "Estagiário de Desenvolvimento",
+    period: "Fev/2019 – Mai/2019",
+    description:
+      "Desenvolvimento de aplicações web e mobile utilizando React, React Native e Node.js, com foco em APIs e aplicações modernas.",
+    highlights: [
+      "Desenvolvimento de aplicações com React e React Native",
+      "Construção de APIs com Node.js",
+      "Aplicação de conceitos modernos de desenvolvimento JavaScript",
+      "Primeiro contato profissional com stack JavaScript moderna",
+    ],
+    results: [
+      "Base sólida em tecnologias JavaScript",
+      "Início da especialização em React e Node.js",
     ],
   },
 ];

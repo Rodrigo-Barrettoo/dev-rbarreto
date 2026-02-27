@@ -35,8 +35,9 @@ export function Hero() {
             escaláveis e de alta performance com{" "}
             <span className="text-foreground font-medium">React</span>,{" "}
             <span className="text-foreground font-medium">React Native</span>,{" "}
-            <span className="text-foreground font-medium">Next.js</span> e{" "}
-            <span className="text-foreground font-medium">TypeScript</span>.
+            <span className="text-foreground font-medium">Next.js</span>,{" "}
+            <span className="text-foreground font-medium">TypeScript</span> e{" "}
+            <span className="text-foreground font-medium">Node.js</span>.
           </p>
 
           <motion.div
