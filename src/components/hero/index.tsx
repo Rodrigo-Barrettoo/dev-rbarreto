@@ -6,7 +6,7 @@ import Link from "next/link";
 import { Button } from "../ui/button";
 
 export function Hero() {
-  const enterprises = ["Grupo Boticário", "Piuna", "Kazap Tecnologia"];
+  const enterprises = ["Grupo Boticário", "Kazap Tecnologia", "LabSoft Unifae"];
 
   return (
     <section className="min-h-screen flex items-center relative overflow-hidden pt-24 lg:pt-0">

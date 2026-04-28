@@ -30,25 +30,6 @@ const jobs: JobProps[] = [
   },
 
   {
-    company: "Piuna",
-    role: "Software Engineer (Freelance / Part-time)",
-    period: "Jan/2024 – Atual",
-    description:
-      "Atuação como frontend engineer no desenvolvimento da plataforma Custa Barato, participando da evolução da arquitetura da aplicação, integrações e otimização da experiência de compra.",
-    highlights: [
-      "Desenvolvimento do frontend com React e Next.js com definição de arquitetura e padrões de componentização",
-      "Implementação de integrações GraphQL e construção de fluxos frontend-backend completos",
-      "Desenvolvimento de endpoints e serviços backend com Node.js para suportar funcionalidades da plataforma",
-      "Otimização de fluxos críticos da jornada do usuário e evolução da performance em produção",
-      "Colaboração em decisões técnicas relacionadas à arquitetura da aplicação",
-    ],
-    results: [
-      "Plataforma em produção com usuários ativos",
-      "Evolução contínua da experiência do usuário e performance",
-    ],
-  },
-
-  {
     company: "Kazap Tecnologias",
     role: "Software Engineer",
     period: "Set/2020 – Jun/2024",
